@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract EfficcientVaults {
 
 // vaultId => vaultValue
-mapping (uint256 => uint256) internal vaultIdToVaultValue;
+mapping (uint256 => uint256) public vaultIdToVaultValue;
 
 // the next vault's id
 uint256 nextVaultId;
